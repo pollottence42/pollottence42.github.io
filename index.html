@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L{o}TT</title>
+    <style>
+        .custom-font {
+            font-family: 'Times New Roman', 'Arial', sans-serif;
+            color:rgb(50, 0, 129)
+        }
+
+        a {
+            color: #00a71c;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #c07e04;
+            text-decoration: underline;
+        }
+
+        .image {
+            float: left;
+            margin-right: 15px;
+            margin-bottom: 15px;
+            width: 90px;
+            height: 105px;
+        }
+
+        p {
+            font-family: 'Century Gothic', 'Arial', sans-serif;
+            font-size: 18px;
+            line-height: 1.4;
+        }
+
+        h1 {
+            font-family: 'Century Gothic', 'Arial', sans-serif;
+        }
+
+        h3 {
+            font-family: 'Century Gothic', 'Arial', sans-serif;
+        }
+
+        blockquote {
+            font-family: 'Impact', 'Arial', sans-serif;
+            color:rgb(179, 159, 212)
+        }
+
+        table {
+            width: 20%;
+        }
+        th, td {
+            border: 1px solid black;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        li {
+            font-family: 'Century Gothic', 'Arial', sans-serif;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Простите</h1>
+    <h2>Глядите,, как я отбываю в родную обитель</h2>
+    <p>
+        Слезинка живая разбилась о <b>грязи</b> лечебные <strong>травы</strong>
+    </p>
+    <p>
+        Травою обвязан, как лентой <i>лукавой</i>,, как змей <em>златоокий</em>,, как солнце <i>горячее</i>,,
+        как чернорогий чертёнок бродячий
+    </p>
+    <h3 id="home">
+        В <a href="https://ru.wikipedia.org/wiki/Подгорное_(Энгельсский_район)" target="_blank">родимой землице</a> меня хороните
+    </h3>
+    <p>
+        <ul>
+            <li>В родимой хранится родная обитель,,</li>
+            <li>и в ней хорошо,, я ей отдан всецело</li>
+            <li>угóльной душою</li>
+            <li>и тлеющим телом</li>
+        </ul>
+    </p>
+    <h3>
+        <u>И я не останусь</u>
+    </h3>
+    <p>
+        <s>И звёзды покинут глаза</s>
+    </p>
+    <p>
+        И пустая очей <sub>половина</sub>
+    </p>
+    <p>
+        И прах не останется,, только уголья,, что тлеют <sup>местами</sup>
+    </p>
+    <h3>
+        На маковом поле <small>заброшенный выход</small> в родную обитель   
+    </h3>
+    <p>
+        И <mark style="background-color: rgb(52, 166, 241) ;">людно</mark>,, и <mark style="background-color: olivedrab;">тихо</mark>
+    </p>
+    <p>
+        Войти <br>
+        или <br>
+        выйти<br>
+        здесь каждый свободен
+    </p>
+    <p>
+        Но все ли по воле <button type="button" onclick="changeColors()">??</button>
+    </p>
+    <p>
+        Но каждый ли <code>ходит по этому полю</code>,, ища и желая?
+    </p>
+    <p>
+        И каждый ли честен своими делами <span class="custom-font">на пепельном месте моих окончаний??</span>
+    </p>
+    <p>
+        Родная обитель любого встречает <input type="Name" id="textInput" placeholder="Enter">
+    </p>
+    <hr>
+    <div class="output" id="outputArea"></div>
+
+
+    <script>
+        function changeColors() {
+            document.body.style.backgroundColor = 'darkgreen';
+            document.body.style.color = 'white';
+
+            const customTextElement = document.querySelector('.custom-font');
+            customTextElement.style.color = 'aqua';
+        }
+    </script>
+
+<script>
+    const texts = ["<h3>Народа креститель <button type=\"button\" onclick=\"change()\"><b>!!</b></button></h3> <blockquote cite=\"https://t.me/marronio\"> <p>Опасно в народе,, крещённом по воле хорошей погоды,, не знающем соли на тлеющих ранах</p></blockquote> <p>Сбежишь ли <a href=\"#home\">отсюда??</a></p> <p><a href=\"https://dl.dropboxusercontent.com/scl/fi/0nxpv1bs587neixwc69ko/.pdf?rlkey=z9gkfc3bp29rg1tjzgva7impf&st=8mckxdk1&dl=0\" download=\"СЖИ\">Любви первозданной</a> средь этого люда сложнее,, чем злобе</p> <p>Она приютится однажды</p> <p><iframe frameborder=\"0\" allow=\"clipboard-write\" style=\"border:none;width:30%;height:210px;\" width=\"30%\" height=\"210\" src=\"https://music.yandex.ru/iframe/track/133903929/34398440\">Слушайте <a href='https://music.yandex.ru/album/34398440/track/133903929'>Верить и ждать</a> — <a href='https://music.yandex.ru/artist/5271861'>Екатерина Яшникова</a> на Яндекс Музыке</iframe></p> <p>Но чтобы жестокие лица,, тоской искривлённые,, стали яснее,, один оскорблённый,, что грязи грязнее и нищих беднее,, простить оскорбителя должен</p> <h3>Роднее им станет обитель родная,, однажды забытая всеми</h3> <img src=\"https://i.postimg.cc/8cSvRCS7/image-126-cr.png\" alt=\"Красный и жёлтый мак\" width=\"90\" height=\"105\" class=\"image\" loading=\"eager\"> <p>И бросил бы каждый по малому семечку мака,, и всякий бы вышел немного светлее</p> <p>И маком у жизни порога <mark style=\"background-color: red ; color: yellow;\">краснее</mark>,, <mark style=\"background-color: yellow; color: red\">желтее</mark></p> <table><tr><th>И</th><th>каплями</th><th>мака</th></tr><tr><td>над</td><td>пепельным</td><td>телом</td></tr><tr><td>бы</td><td>кто-то</td><td>заплакал</td></tr></table>"];
+
+    let currentTextIndex = 0;
+
+    document.getElementById('textInput').addEventListener('keypress', function(event) {
+        if (event.key === 'Enter') {
+            event.preventDefault();
+
+            if (currentTextIndex < texts.length) {
+                const outputArea = document.getElementById('outputArea');
+
+                outputArea.insertAdjacentHTML('beforeend', texts[currentTextIndex]);
+                currentTextIndex++;
+
+                this.value = '';
+            } else {
+                this.value = '';
+            }
+        }
+    });
+</script>
+
+<script>
+    function change() {
+        document.body.style.backgroundColor = '#800000';
+        document.body.style.color = 'white';
+
+        const customTextElement = document.querySelector('.custom-font');
+            customTextElement.style.color = 'aqua';
+    }
+</script>
+
+</body>
+</html>
